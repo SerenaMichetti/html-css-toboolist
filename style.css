@@ -34,3 +34,33 @@ main {
     margin: auto;
     margin-top: 40px;
 }
+
+section{
+    padding-left: 50px;  
+    padding-right: 50px;  
+}
+
+.separator{
+    border-bottom:3px solid#f6f8fa
+}
+#button-section{
+    height: 50px;
+    display:flex;
+    align-items: center;
+}
+#button-section button{
+    margin-right: 5px;
+    height: 28px;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+}
+#add-task{
+    background-color:#48adf0;
+    color:white;
+    border: none;
+}
+#add-section{
+    color:gray;
+    background-color: white;
+    border: 1px solid gray;
+}
