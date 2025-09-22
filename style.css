@@ -87,6 +87,7 @@ section {
 .all-elements{
     padding-top: 10px;
     padding-left:10px;
+    margin:10px;
 }
 .e-check{
     color:green;
@@ -97,7 +98,7 @@ section {
    border-radius: 50%;
    line-height: 20px;
 }
-.e-box{
+.e-box-blu{
     background-color:#4bade5;
     margin-left: 10px;
     border-radius: 15px;
@@ -109,3 +110,35 @@ section {
     font-size: medium;
     font-weight: 500;
 }
+.e-box-purple{
+    background-color:#9b74e8;
+    margin-left: 10px;
+    border-radius: 15px;
+    color:white;
+    font-size:small;
+    padding:10px;
+}
+   .e-cross{ color:red;
+    font-weight: bold;
+    font-size:15px;
+    margin-right: 15px;
+   border: 2px solid red;
+   border-radius: 50%;
+   line-height: 20px;
+   }
+   .e-box-green{
+        background-color:#63c1a8;
+    margin-left: 10px;
+    border-radius: 15px;
+    color:white;
+    font-size:small;
+    padding:10px;
+   }
+   .e-box-orange{
+    background-color:#f69f32;
+    margin-left: 10px;
+    border-radius: 15px;
+    color:white;
+    font-size:small;
+    padding:10px;
+   }
