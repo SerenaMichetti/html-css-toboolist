@@ -82,35 +82,29 @@ section {
     font-size: x-large;
 }
 
-.elements {
+.task {
     margin-top: 20px;
-    font-family: arial;
-
+    font-family: arial; 
 }
 
-.all-elements {
+.element {
     padding-top: 10px;
     padding-left: 10px;
     margin: 10px;
 }
 
-.e-check {
-    color: green;
-    font-weight: bold;
-    font-size: 15px;
-    margin-right: 15px;
-    border: 2px solid green;
-    border-radius: 50%;
-    line-height: 20px;
-}
-
-.e-box-blu {
-    background-color: #4bade5;
-    margin-left: 10px;
+.e-box{
+     margin-left: 10px;
     border-radius: 15px;
-    color: white;
     font-size: small;
     padding: 10px;
+    background-color: grey;
+    color: black;
+}
+}
+.e-box-blu {
+    background-color: #4bade5;
+    color: white;
 }
 
 .e-text {
@@ -120,55 +114,46 @@ section {
 
 .e-box-purple {
     background-color: #9b74e8;
-    margin-left: 10px;
-    border-radius: 15px;
     color: white;
-    font-size: small;
-    padding: 10px;
 }
 
-.e-cross {
-    color: red;
+.e-icon{
+    display:inline-block;
     font-weight: bold;
     font-size: 15px;
     margin-right: 15px;
-    border: 2px solid red;
     border-radius: 50%;
     line-height: 20px;
+    width: 24px;
+    height: 24px;
+    padding-left: 3px;
+    border: 2px solid;
+}
+
+.green {
+    color: green;
+    border-color: green;
+}
+
+.red {
+    color: red;
+    border-color: red;
 }
 
 .e-box-green {
     background-color: #63c1a8;
-    margin-left: 10px;
-    border-radius: 15px;
     color: white;
-    font-size: small;
-    padding: 10px;
 }
-
 .e-box-orange {
     background-color: #f69f32;
-    margin-left: 10px;
-    border-radius: 15px;
-    color: white;
-    font-size: small;
-    padding: 10px;
+   color: white; 
 }
-
 .e-box-pink {
     background-color: #da659f;
-    margin-left: 10px;
-    border-radius: 15px;
     color: white;
-    font-size: small;
-    padding: 10px;
-}
+}  
 
 .e-box-olive {
     background-color: #aec822;
-    margin-left: 10px;
-    border-radius: 15px;
     color: white;
-    font-size: small;
-    padding: 10px;
 }
