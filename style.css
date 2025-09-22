@@ -35,32 +35,77 @@ main {
     margin-top: 40px;
 }
 
-section{
-    padding-left: 50px;  
-    padding-right: 50px;  
+section {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.separator{
-    border-bottom:3px solid#f6f8fa
+.separator {
+    border-bottom: 3px solid#f6f8fa
 }
-#button-section{
+
+#button-section {
     height: 50px;
-    display:flex;
+    display: flex;
     align-items: center;
 }
-#button-section button{
+
+#button-section button {
     margin-right: 5px;
     height: 28px;
     padding: 0 10px 0 10px;
     border-radius: 5px;
 }
-#add-task{
-    background-color:#48adf0;
-    color:white;
+
+#add-task {
+    background-color: #48adf0;
+    color: white;
     border: none;
 }
-#add-section{
-    color:gray;
+
+#add-section {
+    color: gray;
     background-color: white;
     border: 1px solid gray;
+}
+
+.title-task img {
+    width: 25px;
+    height: 20px;
+    padding-top: 8px;
+}
+.title-new-task{
+    font-weight: 700;
+    color:#47494a;
+    font-size: x-large;
+}
+.elements{
+    margin-top: 20px;
+    font-family: arial;
+
+}
+.all-elements{
+    padding-top: 10px;
+    padding-left:10px;
+}
+.e-check{
+    color:green;
+    font-weight: bold;
+    font-size:15px;
+    margin-right: 15px;
+   border: 2px solid green;
+   border-radius: 50%;
+   line-height: 20px;
+}
+.e-box{
+    background-color:#4bade5;
+    margin-left: 10px;
+    border-radius: 15px;
+    color:white;
+    font-size:small;
+    padding:10px;
+}
+.e-text{
+    font-size: medium;
+    font-weight: 500;
 }
