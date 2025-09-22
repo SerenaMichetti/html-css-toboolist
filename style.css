@@ -33,6 +33,7 @@ main {
     width: 70%;
     margin: auto;
     margin-top: 40px;
+    padding-bottom: 60px;
 }
 
 section {
@@ -142,3 +143,21 @@ section {
     font-size:small;
     padding:10px;
    }
+    .e-box-pink{
+    background-color:#da659f;
+    margin-left: 10px;
+    border-radius: 15px;
+    color:white;
+    font-size:small;
+    padding:10px;
+   }
+   .e-box-olive{
+    background-color:#aec822;
+    margin-left: 10px;
+    border-radius: 15px;
+    color:white;
+    font-size:small;
+    padding:10px;
+   }
+   }
+   
